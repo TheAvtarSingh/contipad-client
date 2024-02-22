@@ -62,7 +62,7 @@ function Signup() {
       setErrors(newErrors);
     } else {
       setSubmitFlag(true);
-      axios.post('http://localhost:5001/api/signup-user', formData)
+      axios.post('https://contipad-server.vercel.app/api/signup-user', formData)
   .then((res) => {
   
     if(res.data.message) setResult(res.data.message);
