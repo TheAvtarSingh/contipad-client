@@ -11,7 +11,17 @@
     text-align: center;
     margin: 1rem 0rem;
     color: #287b19;
+    display: block;
 
+}
+.userName{
+
+    text-align: start;
+    margin: 0rem 1rem;
+    color: #19387b;
+    display: block;
+    font-style: italic;
+    font-weight: 200;
 }
 h1:focus{
     outline: none;
