@@ -24,7 +24,7 @@ function Pad() {
 
 
   useEffect(() => {
-    const socket = io("http://localhost:5001", { transports: ["websocket"] });
+    const socket = io("https://contipad-server-thenorthcap.koyeb.app", { transports: ["websocket"] });
     socket.on("connection", () => {
       console.log("Connected to server");
     });
